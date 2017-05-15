@@ -1,0 +1,124 @@
+.searchDiv
+{
+	float:left;
+	margin: 44px 0px 5px 0px;
+}
+.logo
+{
+	float:left;
+}
+.glyphicon.glyphicon-home
+{
+	font-size: 30px;
+	color:white;
+	margin: 44px 0px 5px 25px;
+}
+.glyphicon.glyphicon-upload
+{
+	font-size: 30px;
+	color:white;
+	margin: 44px 0px 5px 25px;
+}
+.glyphicon.glyphicon-tasks
+{
+	font-size: 25px;
+	color:white;
+	margin: 44px 0px 5px 25px;
+}
+
+.amountDiv
+{
+	float:right;
+	margin: 10px 0px 0px 0px;
+}
+.glyphicon.glyphicon-trash
+{	
+	font-size: 25px;
+	color:#006dcc;
+}
+.rightDiv
+{
+	float:right;
+	margin: 44px 0px 5px 0px;
+}
+.containerBorder
+{
+	padding:2px;
+	margin:2px 0px 2px 0px;
+}
+.cardBorder
+{
+}
+.headerBackground
+{
+	background:	#0D47A1;
+}
+.borderToBeRemoved1
+{
+	border:1px solid black;
+}
+.userAccount
+{
+	border:1px solid Gray;
+	border-radius: 5px;
+	width: 80px;
+	height: 80px;
+	
+}
+.centeredDiv
+{
+	margin:auto;
+}
+.contentMargin
+{
+	margin:20px 0px 5px 0px;
+}
+.spinner
+{
+	width:100%;
+	
+}
+#smallText
+{
+	width:20%;
+}
+#spinner-1 input 
+{
+	width: 100px
+}
+.nav-pills > li > a :hover
+{
+	background-color:#006dc7 !important;
+	color:#FFFFFF;
+}
+input[type="number"]
+{
+	width:40px;
+}
+img[class="pull-right"]
+{
+	margin:5px;
+}
+.glyphicon.glyphicon-shopping-cart {
+    font-size: 30px;
+	color:white;
+}
+.glyphicon.glyphicon-user
+ {
+	font-size: 30px;
+	color:white;
+}
+.cartItem
+{
+	font-size: 20px;
+	color:white;
+	margin:-20px 0px 0px -20px;
+	position:absolute;
+}
+.glyphicon.glyphicon-ok
+{
+	font-size: 15px;
+	color:green;
+	margin:3px 0px 0px 10px;
+	position:absolute;
+}

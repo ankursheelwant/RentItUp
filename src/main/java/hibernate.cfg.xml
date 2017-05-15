@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/rent</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">ankur</property>
+
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.show_sql">true</property>
+
+		<mapping class="com.project.rentItUp.pojo.UserDetails" />
+		<mapping class="com.project.rentItUp.pojo.RoleDetails" />
+		<mapping class="com.project.rentItUp.pojo.ProductDetails" />
+		<mapping class="com.project.rentItUp.pojo.RoleMapping" />
+		<mapping class="com.project.rentItUp.pojo.ProductReviews" />
+		<mapping class="com.project.rentItUp.pojo.OrderDetails" />
+		<mapping class="com.project.rentItUp.pojo.OrderItemDetails" />
+		<mapping class="com.project.rentItUp.pojo.UserRatings" />
+		
+		
+<!-- 		<mapping class="com.yusuf.spring.pojo.Email" /> -->
+<!-- 		<mapping class="com.yusuf.spring.pojo.Category" /> -->
+<!-- 		<mapping class="com.yusuf.spring.pojo.Person" /> -->
+<!-- 		<mapping class="com.yusuf.spring.pojo.Advert" /> -->
+
+	</session-factory>
+</hibernate-configuration>
